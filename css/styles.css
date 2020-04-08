@@ -1,0 +1,206 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat-black';
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h3 {
+  font-family: 'Montserrat-black';
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #252a34;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* sections */
+.colored-section{
+  background-color: #ff2e63;
+  color: #f5f5f5;
+}
+.white-section{
+  background-color: white;
+}
+#title .container-fluid {
+  padding: 2% 10% 6%;
+}
+/* Navigation bar */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light';
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+.download-button {
+  margin: 10% 5% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  right:25%;
+}
+.data {
+  margin-top: 3%;
+  text-align: left;
+}
+@media (max-width:991px){
+  .data, .download-button, h1, #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features section */
+#features {
+  padding: 10% 10%;
+  position: relative;
+}
+.icon {
+  color: #fc5c9c;
+  padding-bottom: 5%;
+}
+
+.icon:hover {
+  color: #ff2e63;
+}
+
+.feature-box {
+  padding: 40px 0 40px 0;
+}
+
+/* testimonials section */
+.comments {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 35px auto 0;
+}
+
+.author {
+  padding-top: 2%;
+  color: #f5f5f5;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+  transition: 1.5s;
+}
+
+/* Press section */
+#press {
+  padding-bottom: 5%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 25px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 4% 3%;
+}
+.plans {
+  font-family: 'Montserrat-black';
+  font-size: 3rem;
+  font-weight: bold;
+}
+.price-tag{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card-header {
+  background-color: #fc5c9c;
+  border-color:#fc5c9c;
+}
+
+.card {
+  border-color: #fc5c9c;
+}
+
+.breed {
+  color: #f5f5f5;
+}
+
+.b1 {
+  border-color: #fc5c9c;
+  border: 1.2px solid;
+  color: #fc5c9c;
+}
+
+.b1:hover {
+  background-color: #ff2e63;
+  border-color: #ff2e63;
+}
+
+.b2 {
+  background-color: #fc5c9c;
+  border-color: #fc5c9c;
+}
+
+.b2:hover {
+  background-color: #ff2e63;
+  border-color: #ff2e63;
+}
+
+/* call to action */
+#cta{
+  padding: 6% 10% 3%;
+}
+.cta-text{
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+  padding: 0 15%;
+}
+.cta-download-button{
+  margin: 4% 1.5% 5%;
+}
+
+/* Footer Section */
+#footer{
+  padding: 8% 15% 2%;
+}
+.footer-icon {
+  color: #fc5c9c;
+  padding-bottom: 2%;
+  margin: 0 10px;
+}
+.footer-icon:hover {
+  color: #ff2e63;
+}
